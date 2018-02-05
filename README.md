@@ -1,4 +1,4 @@
-# Configure Appium 
+# Configure Appium with codeception
 ###How to set up Appium with codeception
 ### includes everything as a new machine
 
