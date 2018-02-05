@@ -24,7 +24,7 @@
    export ANDROID_HOME=/Users/anasfitiani/Library/Android/sdk/
    export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
    export PATH=$PATH:/usr/local/share/npm/bin/
-   PATH=${JAVA_HOME}/bin:$PATH   
+   PATH=${JAVA_HOME}/bin:$PATH  
    
    ###AND SAVE
    
@@ -62,3 +62,18 @@
    info AppiumDoctor ### Diagnostic completed, no fix needed. ###
    info AppiumDoctor
    info AppiumDoctor Everything looks good, bye!
+   
+   
+   ### NOW, how to set or export your paths such as android home or java home:
+   1. run nano ~/.bash_profile
+   2. add:
+   export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+      export ANDROID_HOME=/Users/anasfitiani/Library/Android/sdk/
+      export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
+      export PATH=$PATH:/usr/local/share/npm/bin/
+      PATH=${JAVA_HOME}/bin:$PATH
+      3. save
+      4. close the terminal and re open it
+      5. source ~/.bash_profile
+      6. run appium-doctor
+      
