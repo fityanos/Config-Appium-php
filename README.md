@@ -1,4 +1,4 @@
-# Configure Appium with CodeCeption
+# Configure Appium with PHP
 
 
 #### Installation and Setup as a New Machine:
