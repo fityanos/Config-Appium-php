@@ -3,18 +3,20 @@
 
 #### Installation and Setup as a New Machine:
     1. Install PHP and Composer
+    
+    2. Install latest codeCeption
 
-    2. Install Node JS and npm
+    3. Install Node JS and npm
 
-    3. Install JAVA and JDK
+    4. Install JAVA and JDK
 
-    4. Install Android studio and make sure it in Applications
+    5. Install Android studio and make sure it in Applications
 
-    5. Install Appium server GLOBALLY through npm | npm install -g appium
+    6. Install Appium server GLOBALLY through npm | npm install -g appium
 
-    6. Install Appium Desktop for Inspecting the Elements
+    7. Install Appium Desktop for Inspecting the Elements
 
-    7. Run npm install appium-doctor to install appium-doctor
+    8. Run npm install appium-doctor to install appium-doctor
 
 
 
