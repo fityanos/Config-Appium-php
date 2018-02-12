@@ -19,6 +19,7 @@
     8. Run npm install appium-doctor to install appium-doctor
 
 
+ - **_ANDROID_** :octocat: 
 
 #### Now, how to set or export your paths such as ANDROID_HOME || JAVA_HOME:
    
@@ -90,8 +91,40 @@
        
        info AppiumDoctor Everything looks good, bye!
        
-       info AppiumDoctor`
-   
+       info AppiumDoctor
+       
+       
+#### Configure Appium desktop and define desire capabilities for ANDROID:
+               
+              1. Server: 0.0.0.0  
+              2. Port: 4723
+                 
+              3. desire capabilities Android:
+                 {
+                   "platformName": "Android",
+                   
+                   "automationName": "Appium",
+                   
+                   "deviceName": "Android device",
+                   
+                   "appPackage": "related_app_package",
+                   
+                   "appActivity": "related_app_activity",
+                   
+                   "noReset": false
+                 }
+                 
+              4. Save desire capabilities
+              
+              
+              
+              
+    
+    
+    
+              
+              
+   - **_IOS_** :octocat: 
    
 #### When you run appuim-doctor --ios you will get:
       
@@ -117,34 +150,62 @@
       
       info AppiumDoctor
       
-      info AppiumDoctor Everything looks good, bye!`
+      info AppiumDoctor Everything looks good, bye!
    
    
    
-   
+#### Configure Appium desktop and define desire capabilities for IOS Simulator:
+                  
+                 1. Server: 0.0.0.0  
+                 2. Port: 4723
+                    
+                 3. desire capabilities iOS:
+                    {
+                      "app": "path_to_your_application_.ipa_file",
+                      
+                      "platformName": "iOS",
+                      
+                      "platformVersion": "iOS_Version Example (10.1)",
+                      
+                      "deviceName": "iPhone Simulator",
+                      
+                      "automationName": "XCUITest"
+                    }
+                    
+                 4. Save desire capabilities
+                 
+                 
+                 
+#### Configure Appium desktop and define desire capabilities for IOS Real device:
+                     
+                    1. Server: 0.0.0.0  
+                    2. Port: 4723
+                       
+                    3. desire capabilities iOS:
+                       {
+                         "app": "path_to_your_application_.ipa_file",
+                         
+                         "platformName": "iOS",
+                         
+                         "deviceName": "your_iphone_device_name",
+                         
+                         "xcodeOrgId": "developement_team_id from developement",
+                         
+                         "xcodeSigningId": "iPhone Developer",
+                         
+                         "udid": "the ID",
+                         
+                         "platformVersion": "Ex 11.1",
+                         
+                         "useNewWDA": true,
+                         
+                         "fullReset": true
+                       }
+                       
+                    4. Save desire capabilities              
    
       
       
       
-#### Configure Appium desktop and define desire capabilities:
-        
-       1. Server: 0.0.0.0  
-       2. Port: 4723
-          
-       3. desire capabilities Android:
-          {
-            "platformName": "Android",
-            
-            "automationName": "Appium",
-            
-            "deviceName": "Android device",
-            
-            "appPackage": "related_app_package",
-            
-            "appActivity": "related_app_activity",
-            
-            "noReset": false
-          }
-          
-       4. Save desire capabilities
+
       
