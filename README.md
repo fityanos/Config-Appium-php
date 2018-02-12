@@ -189,11 +189,11 @@
                          
                          "deviceName": "your_iphone_device_name",
                          
-                         "xcodeOrgId": "developement_team_id from developement",
+                         "xcodeOrgId": "developement_team_id from developement (Apple developer team identifier string)",
                          
-                         "xcodeSigningId": "iPhone Developer",
+                         "xcodeSigningId": "iPhone Developer (string representing a signing certificate. iPhone Developer by default)",
                          
-                         "udid": "the ID",
+                         "udid": "the ID((Unique Device Identifier) of real device that can be retrieved by running 'instruments -s devices' while device is connected)",
                          
                          "platformVersion": "Ex 11.1",
                          
