@@ -94,6 +94,12 @@
        info AppiumDoctor
        
        
+##### If you faced erro such as "Error: listen EADDRINUSE 0.0.0.0:4723" on CLI or Appium GUI try to change the Appium port to 4727
+
+##### Make sure to tap on the mobile device to do more than just charging the device
+
+       
+       
 #### Configure Appium desktop and define desire capabilities for ANDROID:
                
               1. Server: 0.0.0.0  
