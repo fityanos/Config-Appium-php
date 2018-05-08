@@ -19,14 +19,14 @@
     8. Run npm install appium-doctor to install appium-doctor
 
 
- - **_ANDROID_** :octocat: 
+ ### - **_ANDROID_** :octocat: 
 
 #### Now, how to set or export your paths such as ANDROID_HOME || JAVA_HOME:
    
     1. run nano ~/.bash_profile
     2. add:
     
-       a. export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+       a. export JAVA_HOME=/Library/Java/JavaVirtualMachines/$VERSION/Contents/Home
        
        b. export ANDROID_HOME=/Users/usr/Library/Android/sdk/
           
@@ -50,7 +50,7 @@
        
        3. execute pwd (to get the path while you are in the dir) 
        
-       4. JAVA_HOME => export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+       4. JAVA_HOME => export JAVA_HOME=/Library/Java/JavaVirtualMachines/$VERSION/Contents/Home
        
        5. export ANDROID_HOME=/Users/usr/Library/Android/sdk/
        
@@ -65,17 +65,17 @@
    
 #### When you run appuim-doctor --android you will get:
    
-       info AppiumDoctor Appium Doctor v.1.4.3
+       info AppiumDoctor Appium Doctor $VERSION
        
        info AppiumDoctor ### Diagnostic starting ###
        
-       info AppiumDoctor  ✔ The Node.js binary was found at: /Users/usr/.nvm/versions/node/v6.2.2/bin/node
+       info AppiumDoctor  ✔ The Node.js binary was found at: /Users/usr/.nvm/versions/node/$VERSION/bin/node
        
        info AppiumDoctor  ✔ Node version is 6.2.2
        
        info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/usr/Library/Android/sdk/
        
-       info AppiumDoctor  ✔ JAVA_HOME is set to: /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+       info AppiumDoctor  ✔ JAVA_HOME is set to: /Library/Java/JavaVirtualMachines/$VERSION/Contents/Home
        
        info AppiumDoctor  ✔ adb exists at: /Users/usr/Library/Android/sdk/platform-tools/adb
        
@@ -94,9 +94,7 @@
        info AppiumDoctor
        
        
-##### If you faced erro such as "Error: listen EADDRINUSE 0.0.0.0:4723" on CLI or Appium GUI try to change the Appium port to 4727
 
-##### Make sure to tap on the mobile device to do more than just charging the device
 
        
        
@@ -130,7 +128,7 @@
     
               
               
-   - **_IOS_** :octocat: 
+  ### - **_IOS_** :octocat: 
    
 #### When you run appuim-doctor --ios you will get:
       
@@ -213,5 +211,5 @@
       
       
       
-
+##### P.S: If you faced erro such as "Error: listen EADDRINUSE 0.0.0.0:4723" on CLI or GUI try to change the Appium port to a different one (Ex: 4727)  :blue_book:
       
