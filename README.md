@@ -71,7 +71,7 @@
        
        info AppiumDoctor  ✔ The Node.js binary was found at: /Users/usr/.nvm/versions/node/$VERSION/bin/node
        
-       info AppiumDoctor  ✔ Node version is 6.2.2
+       info AppiumDoctor  ✔ Node version is $VERSION
        
        info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/usr/Library/Android/sdk/
        
@@ -111,9 +111,9 @@
                    
                    "deviceName": "Android device",
                    
-                   "appPackage": "related_app_package",
+                   "appPackage": "$appPackage",
                    
-                   "appActivity": "related_app_activity",
+                   "appActivity": "$appActivity",
                    
                    "noReset": false
                  }
@@ -134,9 +134,9 @@
       
       info AppiumDoctor ### Diagnostic starting ###
       
-      info AppiumDoctor  ✔ The Node.js binary was found at: /Users/usr/.nvm/versions/node/v6.2.2/bin/node
+      info AppiumDoctor  ✔ The Node.js binary was found at: /Users/usr/.nvm/versions/node/$VERSION/bin/node
       
-      info AppiumDoctor  ✔ Node version is 6.2.2
+      info AppiumDoctor  ✔ Node version is $VERSION
       
       info AppiumDoctor  ✔ Xcode is installed at: /Applications/Xcode.app/Contents/Developer
       
@@ -169,7 +169,7 @@
                       
                       "platformName": "iOS",
                       
-                      "platformVersion": "iOS_Version Example (10.1)",
+                      "platformVersion": "$iOS_Version Example (10.1)",
                       
                       "deviceName": "iPhone Simulator",
                       
